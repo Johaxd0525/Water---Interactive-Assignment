@@ -25,6 +25,8 @@ public class ThirdPersonCamera : MonoBehaviour
   
     void Update()
     {
+        // Get keyboard inputs
+
         float hInput = Input.GetAxisRaw("Horizontal");
 
         float vInput = Input.GetAxisRaw("Vertical");
@@ -32,17 +34,21 @@ public class ThirdPersonCamera : MonoBehaviour
         Vector3 forwardVector = new Vector3(camera.forward.x, 0f, camera.forward.z).normalized;
         Vector3 rightVector = new Vector3(camera.right.x, 0f, camera.right.z).normalized;
 
+        // Vector describing how much we want to move
         Vector3 moveVector = (forwardVector * vInput) + (rightVector * hInput);
 
+        // Avoids speedy diagonals above 1
         if (moveVector.magnitude > 1)
             moveVector = moveVector.normalized;
 
         moveVector *= moveSpeed;
 
+        // Checks if player is on ground
         grounded = Physics.Raycast(transform.position, Vector3.down, (playerHeight * 0.5f) + 0.2f, whatisGround);
 
         float verticalSpeed = rb.linearVelocity.y;
 
+        // Moves and rotates player
         if (grounded)
             rb.linearVelocity = new Vector3(moveVector.x, verticalSpeed, moveVector.z);
 
