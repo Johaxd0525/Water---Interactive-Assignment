@@ -15,7 +15,11 @@ D:/Spelmotorer/Unity Projects/GameProgCourse-Example/GameProgExampleProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 53252
+=======
+54707
+>>>>>>> Stashed changes
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,6 +63,7 @@ D:/Spelmotorer/Unity Projects/GameProgCourse-Example/GameProgExampleProject
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [22916]  Target information:
 
 Player connection [22916]  * "[IP] 192.168.68.105 [Port] 0 [Flags] 2 [Guid] 510470083 [EditorId] 510470083 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K2BRBSB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
@@ -66,6 +71,15 @@ Player connection [22916]  * "[IP] 192.168.68.105 [Port] 0 [Flags] 2 [Guid] 5104
 Player connection [22916] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [22916] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
+=======
+Player connection [29936]  Target information:
+
+Player connection [29936]  * "[IP] 100.66.109.45 [Port] 0 [Flags] 2 [Guid] 3214823326 [EditorId] 3214823326 [Version] 1048832 [Id] WindowsEditor(7,JaxB�rbara) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29936] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29936] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
+>>>>>>> Stashed changes
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
@@ -75,8 +89,13 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 59.78 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 1.06 ms.
+=======
+Refreshing native plugins compatible for Editor in 52.30 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.77 ms.
+>>>>>>> Stashed changes
 Initialize engine version: 6000.0.24f1 (11fa355cd605)
 [Subsystems] Discovering subsystems at path D:/Mjukvaror/Unity/6000.0.24f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Spelmotorer/Unity Projects/GameProgCourse-Example/GameProgExampleProject/Assets
@@ -88,6 +107,7 @@ Direct3D:
     VRAM:     8024 MB
     Driver:   32.0.15.6614
 Initialize mono
+<<<<<<< Updated upstream
 Mono path[0] = 'D:/Mjukvaror/Unity/6000.0.24f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Mjukvaror/Unity/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Mjukvaror/Unity/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
@@ -104,11 +124,28 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.320 seconds
 Domain Reload Profiling: 2964ms
 	BeginReloadAssembly (1909ms)
+=======
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.026808 seconds.
+- Loaded All Assemblies, in  2.829 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.206 seconds
+Domain Reload Profiling: 3033ms
+	BeginReloadAssembly (2234ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 	RebuildCommonClasses (157ms)
 	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (148ms)
@@ -130,6 +167,29 @@ Domain Reload Profiling: 2964ms
 			BeforeProcessingInitializeOnLoad (5ms)
 			ProcessInitializeOnLoadAttributes (188ms)
 			ProcessInitializeOnLoadMethodAttributes (56ms)
+=======
+	RebuildCommonClasses (158ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (369ms)
+		LoadAssemblies (2231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (368ms)
+			TypeCache.Refresh (366ms)
+				TypeCache.ScanAssembly (285ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (206ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (184ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -138,9 +198,14 @@ Domain Reload Profiling: 2964ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  2.485 seconds
 Refreshing native plugins compatible for Editor in 2.19 ms, found 4 plugins.
 Native extension for UWP target not found
+=======
+- Loaded All Assemblies, in  2.686 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+>>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
 The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -160,13 +225,20 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-GameProgExampleProject
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  0.977 seconds
 Domain Reload Profiling: 3461ms
 	BeginReloadAssembly (522ms)
+=======
+- Finished resetting the current domain, in  0.575 seconds
+Domain Reload Profiling: 3258ms
+	BeginReloadAssembly (276ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 		CreateAndSetChildDomain (39ms)
 	RebuildCommonClasses (47ms)
 	RebuildNativeTypeToScriptingClass (11ms)
@@ -207,18 +279,68 @@ Received Import Request.
   path: Assets/Materials/Steel.Material.mat
   artifactKey: Guid(3d74039527e0cac4b9986300bc78bf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/Steel.Material.mat using Guid(3d74039527e0cac4b9986300bc78bf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5ad28d70ae4d14523d151761164fe90') in 0.3260361 seconds
+=======
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (2346ms)
+		LoadAssemblies (2114ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (301ms)
+			TypeCache.Refresh (218ms)
+				TypeCache.ScanAssembly (207ms)
+			BuildScriptInfoCaches (68ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (576ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (405ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (277ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.02 ms.
+Unloading 300 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6647 unused Assets / (7.4 MB). Loaded Objects now: 7454.
+Memory consumption went from 238.9 MB to 231.5 MB.
+Total: 7.227500 ms (FindLiveObjects: 0.478400 ms CreateObjectMapping: 0.236600 ms MarkObjects: 4.184100 ms  DeleteObjects: 2.327500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 76907.723877 seconds.
+  path: Assets/Materials/2k_sun.mat
+  artifactKey: Guid(a741951c266b1f944831978c069638a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/2k_sun.mat using Guid(a741951c266b1f944831978c069638a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a58541458ec5660e812c0dc9e93e8034') in 0.7286894 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 189.310504 seconds.
   path: Assets/Materials/Steel.Material.mat
   artifactKey: Guid(3d74039527e0cac4b9986300bc78bf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/Steel.Material.mat using Guid(3d74039527e0cac4b9986300bc78bf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d1fd8d692f7a64aef1e0b12b52b0e8a') in 0.0067891 seconds
+=======
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/Green Material.mat
+  artifactKey: Guid(09ec330bb515be9479838644cf3809a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Green Material.mat using Guid(09ec330bb515be9479838644cf3809a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '838e6026a9d1fb58b333266f1d97e04e') in 0.0055163 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 3151.318489 seconds.
   path: Assets/Settings/SampleSceneProfile.asset
   artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -231,18 +353,40 @@ Received Import Request.
   path: Assets/Settings/URP-HighFidelity.asset
   artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acb5ba55b456b44dc6b671f7afbf2f06') in 0.0007203 seconds
+=======
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/White Material.mat
+  artifactKey: Guid(818d7cde22a90134a980dd9dcdc59f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/White Material.mat using Guid(818d7cde22a90134a980dd9dcdc59f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '281dc4ef93c055600605f8081937cf6e') in 0.0053161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.317697 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(9d8b2cde6e4c77e45b407145b22f3950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(9d8b2cde6e4c77e45b407145b22f3950) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efb7c75181eaf40883266b3fe58c8653') in 0.0006815 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 0.000028 seconds.
   path: Assets/Settings/URP-HighFidelity-Renderer.asset
   artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4622f72a4c5e114c75774317a3dd2e1') in 0.0007684 seconds
+=======
+  Time since last request: 4.751824 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.0004256 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 0.000026 seconds.
   path: Assets/Settings/URP-Balanced-Renderer.asset
   artifactKey: Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -255,18 +399,40 @@ Received Import Request.
   path: Assets/Materials/WaterFlowing.shader.shadergraph
   artifactKey: Guid(1761cd53acbb46845ab28e8c5af55492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/WaterFlowing.shader.shadergraph using Guid(1761cd53acbb46845ab28e8c5af55492) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea83167df0fe91e6876125a233e81b94') in 0.7658987 seconds
+=======
+  Time since last request: 7.856587 seconds.
+  path: Assets/Shaders
+  artifactKey: Guid(f56165e1d445edf43a47e4e8045136f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders using Guid(f56165e1d445edf43a47e4e8045136f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ccad522bd69f29f94d84ea18c2cac82') in 0.0007858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.124687 seconds.
+  path: Assets/Shaders/KUKMORGON.shadergraph
+  artifactKey: Guid(547e5b3a775eb504c9788e586706c9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/KUKMORGON.shadergraph using Guid(547e5b3a775eb504c9788e586706c9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e595de8e7b8f8bc0ceca587338c82a7') in 0.468707 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 416.013546 seconds.
   path: Assets/Materials/WaterFlowing.shader.shadergraph
   artifactKey: Guid(1761cd53acbb46845ab28e8c5af55492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/WaterFlowing.shader.shadergraph using Guid(1761cd53acbb46845ab28e8c5af55492) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '249614a02c472d3e8367281dfc272646') in 0.8077422 seconds
+=======
+  Time since last request: 16.873595 seconds.
+  path: Assets/Shaders/KUKMORGON.shader.shadergraph
+  artifactKey: Guid(547e5b3a775eb504c9788e586706c9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/KUKMORGON.shader.shadergraph using Guid(547e5b3a775eb504c9788e586706c9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5bbe3b422838e48be0aa19d0c687715') in 0.4022031 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 17.139070 seconds.
   path: Assets/Materials/Water.material.mat
   artifactKey: Guid(ea8c494854730b4499e64bdbcf59eb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -279,18 +445,56 @@ Received Import Request.
   path: Assets/Materials/Water.material.mat
   artifactKey: Guid(ea8c494854730b4499e64bdbcf59eb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/Water.material.mat using Guid(ea8c494854730b4499e64bdbcf59eb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0184a4567f20c573d466d7a9e0154fcc') in 0.0270218 seconds
+=======
+  Time since last request: 485.258640 seconds.
+  path: Assets/Shaders/GenomgångSenAnkomst.shader.shadergraph
+  artifactKey: Guid(547e5b3a775eb504c9788e586706c9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/GenomgångSenAnkomst.shader.shadergraph using Guid(547e5b3a775eb504c9788e586706c9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba7dd2d960511aefc55c27d180c4328f') in 0.3060416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 912.140793 seconds.
+  path: Assets/Shaders/GenomgångSenAnkomst.shader.shadergraph
+  artifactKey: Guid(547e5b3a775eb504c9788e586706c9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/GenomgångSenAnkomst.shader.shadergraph using Guid(547e5b3a775eb504c9788e586706c9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c9fd2e3d5b9c73baf909b0ae900392e') in 0.1246717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.762491 seconds.
+  path: Assets/Shaders/GenomgångSenAnkomst.material.mat
+  artifactKey: Guid(2ce5170ef0a1599479fe1e03b50895a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/GenomgångSenAnkomst.material.mat using Guid(2ce5170ef0a1599479fe1e03b50895a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd62b62ec56c46b0e9664ad035d9487b4') in 0.0447206 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 2246.524305 seconds.
   path: Assets/Materials/WaterNormalMap.jpg
   artifactKey: Guid(fe80b71aa20cf97429e7cb6f9532d80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/WaterNormalMap.jpg using Guid(fe80b71aa20cf97429e7cb6f9532d80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72752c7d4d2ee23efe792f3d9ed26bf0') in 0.0129631 seconds
+=======
+  Time since last request: 666.756468 seconds.
+  path: Assets/Shaders/Genomgång2.shader.shadergraph
+  artifactKey: Guid(02c74743b28b8ea4bb4881f56018502d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Genomgång2.shader.shadergraph using Guid(02c74743b28b8ea4bb4881f56018502d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afc1382ae0319bd647131d95ba55529f') in 0.3035413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 152.344239 seconds.
+  path: Assets/Shaders/Colors.png
+  artifactKey: Guid(07c2ed2b2a298614992f0c39fb379945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Colors.png using Guid(07c2ed2b2a298614992f0c39fb379945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abfd5f35212595f139e833739d0dabad') in 0.02521 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 575.874350 seconds.
   path: Assets/Materials/Water.material.mat
   artifactKey: Guid(ea8c494854730b4499e64bdbcf59eb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -335,10 +539,17 @@ Received Import Request.
   path: Assets/Materials/WaterFlowing.shader.shadergraph
   artifactKey: Guid(1761cd53acbb46845ab28e8c5af55492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/WaterFlowing.shader.shadergraph using Guid(1761cd53acbb46845ab28e8c5af55492) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97b9f2547aeb2c3817454649d2b67851') in 0.1632745 seconds
+=======
+  Time since last request: 429.385921 seconds.
+  path: Assets/Shaders/Genomgång2.shader.shadergraph
+  artifactKey: Guid(02c74743b28b8ea4bb4881f56018502d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Genomgång2.shader.shadergraph using Guid(02c74743b28b8ea4bb4881f56018502d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a10698bd387a433661bab07f9b13e207') in 0.6426409 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 22.044631 seconds.
   path: Assets/Materials/Water.material.mat
   artifactKey: Guid(ea8c494854730b4499e64bdbcf59eb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -400,4 +611,67 @@ Received Import Request.
   artifactKey: Guid(ea8c494854730b4499e64bdbcf59eb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/Water.material.mat using Guid(ea8c494854730b4499e64bdbcf59eb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21ef58ed0e087ee0765ff04e65da5ba9') in 0.670513 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+=======
+  Time since last request: 1200.862763 seconds.
+  path: Assets/Shaders/GenomgångSenAnkomst.material.mat
+  artifactKey: Guid(2ce5170ef0a1599479fe1e03b50895a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/GenomgångSenAnkomst.material.mat using Guid(2ce5170ef0a1599479fe1e03b50895a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d4483a289fe0b5988639daf4fe8b5f2') in 0.2543769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.804422 seconds.
+  path: Assets/Shaders/GenomgångSenAnkomst.material.mat
+  artifactKey: Guid(2ce5170ef0a1599479fe1e03b50895a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/GenomgångSenAnkomst.material.mat using Guid(2ce5170ef0a1599479fe1e03b50895a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24a5862d1d4fe5a318da7d4adabe2e89') in 0.0178347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 5052.332942 seconds.
+  path: Assets/Shaders/Cosmos.shader.shadergraph
+  artifactKey: Guid(7e96cb4a74136724dab5e516b5ab300d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Cosmos.shader.shadergraph using Guid(7e96cb4a74136724dab5e516b5ab300d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e704b184d0e281cb3238c3947297b9f9') in 0.6503987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.990303 seconds.
+  path: Assets/Shaders/Cosmos.material.mat
+  artifactKey: Guid(77e5a999a2a8cf646a78304a0500d0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Cosmos.material.mat using Guid(77e5a999a2a8cf646a78304a0500d0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8743b605d71164b75cf4e6c2462241ca') in 0.0068118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3258.222415 seconds.
+  path: Assets/Shaders/Cosmos.shader.shadergraph
+  artifactKey: Guid(7e96cb4a74136724dab5e516b5ab300d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Cosmos.shader.shadergraph using Guid(7e96cb4a74136724dab5e516b5ab300d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a81e1bf8aaf72a1e1cba0369d293f1b2') in 0.7197336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.115390 seconds.
+  path: Assets/Shaders/Cosmos.mat
+  artifactKey: Guid(f7f2f2148e43ce642bd34749b34e34d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Cosmos.mat using Guid(f7f2f2148e43ce642bd34749b34e34d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '179c7573fe9f3ceea1355afcdb399511') in 0.0968707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.793972 seconds.
+  path: Assets/Shaders/Cosmos.mat
+  artifactKey: Guid(f7f2f2148e43ce642bd34749b34e34d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Cosmos.mat using Guid(f7f2f2148e43ce642bd34749b34e34d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87652bf1d15c886399f04238c9a6a273') in 0.0904465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.448403 seconds.
+  path: Assets/Shaders/Cosmos.mat
+  artifactKey: Guid(f7f2f2148e43ce642bd34749b34e34d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Cosmos.mat using Guid(f7f2f2148e43ce642bd34749b34e34d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '007b5672856a04e8ac12d75febf025f4') in 0.6020799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+>>>>>>> Stashed changes
 
